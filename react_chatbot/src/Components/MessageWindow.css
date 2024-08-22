@@ -1,0 +1,47 @@
+body {
+  background-image: url(../../public/bg.avif);
+  background-size: 375px 250px;
+  /* background: linear-gradient(to right, #fbe9e9, #dbe6f9);  */
+}
+.message-window {
+  background-image: url(../../public/chat-bg.jpg);
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  overflow-y: scroll;
+  border: 1px solid #27213c;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.message {
+  align-self: flex-start;
+  width: 80%;
+  background-color: #777777;
+  border: 1px solid #929292;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  margin: 0.3rem 0;
+}
+
+.message-self {
+  align-self: flex-end;
+  background-color: #08044a;
+  border: 1px solid #121212;
+  color: white;
+}
+
+.message-username {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.message-text {
+  font-size: 15px;
+}
